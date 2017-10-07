@@ -1,0 +1,33 @@
+var add = (a, b)=>a+b; - use {} for multiple line function - this means-{return a+b}
+call by using this- add(number1, number2);
+
+Function type
+->function decleration
+->function expression
+->
+
+eval - to evaluate a string
+
+IIFE - immediate invoking function
+
+variable hosting
+
+Javascript > IM-JHTML CSS-master > HTML5
+tags of HTML5
+->picture - there are two tags in it - 'source'(contains 'srcset' in media query) and 'img'(contains 'src' and alt tag)
+->canvas
+->datalist - contains another tag option.
+->ol - ?
+
+cache 
+navigator.onLine; - to check whether you are online or not
+
+TO USE GEO LOCATION ON YOUR SITE
+navigator.geolocation.getCurrentPosition(aaa);
+aaa(position) {
+	alert(position.coords.latitude + position.coords.longitude)
+}
+
+attribute selector
+
+stringify

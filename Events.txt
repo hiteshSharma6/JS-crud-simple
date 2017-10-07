@@ -1,0 +1,27 @@
+mocha-> js/ECMA
+by Microsoft for IE
+
+window.alert
+
+document.getElementByID("..").innerHTML = 'var'; - will replace the value of the HTML tag
+
+page loading -> JS, then HTML, then CSS
+so we use-
+window.addEventListner("laod", function(){})
+
+
+JS Events Name-
+-> click - when click on button
+-> load - when Html loaded then run js
+-> DOMContentLoaded - document is loaded first - same as load
+-> blur - when you come out of that field
+-> change - runs when there is a change in the value
+
+KeyPress Event
+-> onkeydown - execution after print
+-> onkeyup - execution before print
+-> onkeypress - execution after releasing the key
+
+wcag guidlines - for colour combination used for colour blinded people- w3c
+colourpalette - colour combinations given 
+colorsafe.co

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Student CRUD</title>
+    <link rel="stylesheet" href="main.css"/>
+    <script src="../model/model.js"></script>
+    <script src="../model/student_obj.js"></script>
+    <script src="../controller/controller.js"></script>
+</head>
+<body>
+
+<h1>Student Registration</h1>
+
+<table>
+    <tr>
+        <td>Enter Name</td>
+        <td><input type="text" placeholder="Enter Name" id="box_1"/></td>
+    </tr>
+    <tr>
+        <td>Enter Email</td>
+        <td><input type="email" placeholder="Enter Email" id="box_2"/></td>
+    </tr>
+    <tr>
+        <td>Enter Number</td>
+        <td><input type="text" placeholder="Enter Mobile Number" id="box_3"/></td>
+    </tr>
+    <tr>
+        <td><button id="add">ADD</button></td>
+        <td><button id="delete">Delete</button></td>
+        <td><button id="clearAll">Clear</button></td>
+    </tr>
+    <tr>
+        <td><span>Counter1 : </span></td>
+        <td><span id="counter1">0</span></td>
+    </tr>
+    <tr>
+        <td><span>Counter2 : </span></td>
+        <td><span id="counter2">0</span></td>
+    </tr>
+</table>
+
+<ul id="studentList"></ul>
+
+</body>
+</html>

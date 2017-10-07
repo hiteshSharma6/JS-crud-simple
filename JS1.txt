@@ -1,0 +1,31 @@
+Dyanmically making a list using JS
+
+ul =  document.getElementById("list");
+li = document.createElement('li');
+li.innerHTML = a.value+ "   "+ b.value;
+ul.appendChild(li);
+
+
+prompt('stringToDisplay', initialValue); - to use alert box for input - returns input
+
+confirm('stringToDisplay'); - will show confirm alert box - returns Yes/No
+
+event.preventDefault(); - to stop the form to refresh the page
+
+
+WRITE CSS IN JS
+*********************************
+something.script.property;
+
+something.classList.add("className"); - this will add this class in something
+write this- something.classList.toggle("className"); - this will add and delete this class alternatively.
+
+
+MVC FRAMEWORK
+*****************************
+Three layers- View, Model, Controller
+
+Layer talk with each other
+-> View-Controller
+-> Controller-Model
+-> Model-DataBase
